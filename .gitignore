@@ -1,0 +1,43 @@
+# Ignore everything by default
+*
+
+!.gitignore
+
+# Allow service directories
+!*/
+!**/
+
+# Allow Compose files
+!compose.yaml
+
+# Allow documentation
+!README.md
+!**/README.md
+
+# Allow Homepage configuration
+!homepage/config/
+!homepage/config/*.yaml
+!homepage/config/*.css
+!homepage/config/*.js
+
+# Never commit environment files or secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Never commit application runtime data
+**/cache/
+**/logs/
+**/log/
+**/postgres/
+**/etc-pihole/
+**/beszel_data/
+**/beszel_agent_data/
+**/beszel_socket/
+**/*_config/
+
+# Allow License
+!LICENSE

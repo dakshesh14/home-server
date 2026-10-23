@@ -1,0 +1,16 @@
+title: Home Server
+theme: dark
+color: slate
+headerStyle: clean
+hideVersion: true
+
+layout:
+  Media:
+    style: row
+    columns: 3
+  Media Automation:
+    style: row
+    columns: 3
+  Developer:
+    style: row
+    columns: 3

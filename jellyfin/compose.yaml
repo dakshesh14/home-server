@@ -1,0 +1,25 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:12.1
+    container_name: jellyfin
+    restart: unless-stopped
+
+    networks:
+      - default
+      - reverse-proxy
+
+    ports:
+      - "8096:8096"
+
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - /srv/media:/media:ro
+
+networks:
+  default:
+    driver: bridge
+
+  reverse-proxy:
+    external: true
+    name: reverse-proxy
