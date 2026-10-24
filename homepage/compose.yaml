@@ -13,3 +13,4 @@ services:
 
     volumes:
       - ./config:/app/config
+      - ./config/public/images:/app/public/images

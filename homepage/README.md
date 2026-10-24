@@ -35,3 +35,8 @@ Example:
 - No Docker socket or Docker integration is enabled.
 - Keep the dashboard accessible only on your trusted LAN.
 - Back up `compose.yaml` and `config/`.
+
+
+## Acknowledgement
+
+- Image provided by [pexels](https://www.pexels.com/).

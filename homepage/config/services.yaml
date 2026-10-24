@@ -1,3 +1,4 @@
+
 - Media:
     - Jellyfin:
         icon: jellyfin.png
@@ -11,35 +12,11 @@
         description: Photos and videos
         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:2283
 
-- Automation:
-    - n8n:
-        href: http://192.168.29.177:5678
-        description: Workflow automation
-        icon: n8n.png
-
-- Network:
-    - Pi-hole:
-        icon: pi-hole.png
-        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8081/admin/
-        description: DNS and ad blocking
-
-- Monitoring:
-    - Beszel:
-        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8090
-        description: Server monitoring
-        icon: beszel.png
-
 - Media Automation:
-    - qBittorrent:
-        icon: qbittorrent.png
-        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8080
-        description: Torrent downloads
-        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8080
-
     - Radarr:
         icon: radarr.png
         href: http://{{HOMEPAGE_VAR_SERVER_IP}}:7878
-        description: Movie management and automation
+        description: Movie management
         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:7878
 
     - Sonarr:
@@ -48,8 +25,34 @@
         description: TV series management
         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8989
 
+    - qBittorrent:
+        icon: qbittorrent.png
+        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8080
+        description: Torrent client
+        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8080
+
     - Jackett:
         icon: jackett.png
         href: http://{{HOMEPAGE_VAR_SERVER_IP}}:9117
         description: Indexer management
         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:9117
+
+- Automation:
+    - n8n:
+        icon: n8n.png
+        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:5678
+        description: Workflow automation
+        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:5678
+
+- Network & Monitoring:
+    - Pi-hole:
+        icon: pi-hole.png
+        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8081/admin/
+        description: DNS filtering and ad blocking
+        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8081/admin/
+
+    - Beszel:
+        icon: beszel.png
+        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8090
+        description: Server health and resource usage
+        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8090
