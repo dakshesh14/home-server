@@ -11,6 +11,12 @@
         description: Photos and videos
         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:2283
 
+- Automation:
+    - n8n:
+        href: http://192.168.29.177:5678
+        description: Workflow automation
+        icon: n8n.png
+
 - Network:
     - Pi-hole:
         icon: pi-hole.png
@@ -22,8 +28,6 @@
         href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8090
         description: Server monitoring
         icon: beszel.png
-
-
 
 - Media Automation:
     - qBittorrent:
