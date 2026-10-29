@@ -12,30 +12,30 @@
         description: Photos and videos
         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:2283
 
-- Media Automation:
-    - Radarr:
-        icon: radarr.png
-        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:7878
-        description: Movie management
-        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:7878
+# - Media Automation:
+#     - Radarr:
+#         icon: radarr.png
+#         href: http://{{HOMEPAGE_VAR_SERVER_IP}}:7878
+#         description: Movie management
+#         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:7878
 
-    - Sonarr:
-        icon: sonarr.png
-        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8989
-        description: TV series management
-        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8989
+#     - Sonarr:
+#         icon: sonarr.png
+#         href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8989
+#         description: TV series management
+#         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8989
 
-    - qBittorrent:
-        icon: qbittorrent.png
-        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8080
-        description: Torrent client
-        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8080
+#     - qBittorrent:
+#         icon: qbittorrent.png
+#         href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8080
+#         description: Torrent client
+#         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8080
 
-    - Jackett:
-        icon: jackett.png
-        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:9117
-        description: Indexer management
-        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:9117
+#     - Jackett:
+#         icon: jackett.png
+#         href: http://{{HOMEPAGE_VAR_SERVER_IP}}:9117
+#         description: Indexer management
+#         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:9117
 
 - Automation:
     - n8n:

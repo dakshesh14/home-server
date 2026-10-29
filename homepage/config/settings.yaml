@@ -23,9 +23,9 @@ layout:
   Media:
     style: row
     columns: 2
-  Media Automation:
-    style: row
-    columns: 4
+  # Media Automation:
+  #   style: row
+  #   columns: 4
   Automation:
     style: row
     columns: 1
