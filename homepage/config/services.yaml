@@ -56,3 +56,10 @@
         href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8090
         description: Server health and resource usage
         siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8090
+
+- Productivity:
+    - Paperless-ngx:
+        icon: paperless-ngx.png
+        href: http://{{HOMEPAGE_VAR_SERVER_IP}}:8000
+        description: Document management
+        siteMonitor: http://{{HOMEPAGE_VAR_SERVER_IP}}:8000
