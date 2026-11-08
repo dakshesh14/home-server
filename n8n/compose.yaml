@@ -40,6 +40,7 @@ services:
 
     networks:
       - n8n-internal
+      - reverse-proxy
 
   task-runners:
     image: n8nio/runners:2.44.6
@@ -61,3 +62,6 @@ services:
 networks:
   n8n-internal:
     driver: bridge
+
+  reverse-proxy:
+    external: true
